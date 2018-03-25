@@ -1,0 +1,50 @@
+
+/* Large devices , Desktops*/
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 1199px) {
+    .top-contact li{ font-size: 22px; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+@media only screen and (max-width : 991px) {
+    /*HEADER*/
+    .top-header{ line-height: 50px; }
+    .top-contact li{ font-size: 15px; }
+    /*END HEADER*/
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+@media only screen and (max-width : 767px) {
+    /*HEADER*/
+    .header { box-shadow: none; }
+    .top-header{ line-height: 0; }
+    .logo { margin-bottom: 10px; }
+    .top-contact { padding: 0; margin: 20px 0 10px 0; text-align: center; }
+
+    nav.nav-top { background: none; }
+    .top-menu-mobile-btn {display: inline-block;}
+    .top-menu-desktop { display: none; }
+    /*END HEADER*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    /*HEADER*/
+    .top-contact li{ font-size: 12px; }
+    /*END HEADER*/
+}
+
+@media only screen and (max-width : 360px) {
+    /*HEADER*/
+
+    /*END HEADER*/
+}
