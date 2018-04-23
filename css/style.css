@@ -190,6 +190,55 @@ ul.top-menu-mobile:hover {
 .content {
     margin: 20px 0 20px 0;
 }
+.blocks-wrapper {
+    margin: 20px 0;
+}
+.blocks-wrapper:nth-child(2) {
+    background: #f3f3f3;
+}
+
+/* PROMO BLOCK */
+
+.blocks-wrapper h1 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #575958;
+    text-transform: uppercase;
+}
+
+.main-block {
+    margin-bottom: 20px;
+}
+
+.main-block h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #575958;
+    font-weight: 600;
+}
+
+.main-block-text {
+    border-right: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding: 20px;
+}
+/* END PROMO BLOCK */
+
+/* PRODUCTS MAIN */
+.main-products-icon {
+    font-size: 48px;
+    color: #215fad;
+}
+
+.main-products-icon, .main-products-header, .main-products-text {
+    text-align: center;
+}
+/* END PRODUCTS MAIN */
 
 /* FOOTER */
 .footer {

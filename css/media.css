@@ -34,6 +34,7 @@
     .top-menu-mobile-btn {display: inline-block;}
     .top-menu-desktop { display: none; }
     /*END HEADER*/
+
 }
 
 /* Extra Small Devices, Phones */
@@ -41,6 +42,9 @@
     /*HEADER*/
     .top-contact li{ font-size: 12px; }
     /*END HEADER*/
+    /* PROMO BLOCK */
+    .blocks-wrapper h1 { font-size: 20px; }
+    /* END PROMO BLOCK */
 }
 
 @media only screen and (max-width : 360px) {
