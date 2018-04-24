@@ -51,11 +51,13 @@ nav.nav-top {
     background: #575858;
 }
 
+/* TOP MENU DESKTOP */
 .top-menu-desktop li {
     display: inline-block;
     padding: 10px 15px;
     border-right: 1px solid #575858;
-    margin-left: -4px;
+    /*margin-left: -4px;*/
+    position: relative;
 }
 
 .top-menu-desktop li:hover {
@@ -66,13 +68,45 @@ nav.nav-top {
     background: #373838;
 }
 
-.top-menu-desktop li a {
+.top-menu-desktop li a, .top-menu-desktop li span {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
+    cursor: pointer;
 }
 
+.top-menu-desktop .submenu {
+    display: none;
+    position: absolute;
+    width: 400px;
+    list-style: none;
+    border: 1px solid #ededed;
+    left: 0;
+    top: 48px;
+    background: #575858;
+    z-index: 999;
+
+}
+
+.top-menu-desktop .submenu li:first-child {
+    border-top: 1px solid #939393;
+}
+
+.top-menu-desktop .submenu li {
+    border-bottom: 1px solid #939393;
+    display: block;
+}
+
+.top-menu-desktop .submenu li a {
+    font-size: 14px;
+}
+
+.top-menu-desktop li:hover .submenu {
+    display: block;
+}
+
+/* TOP MENU MOBILE */
 .top-menu-mobile-wrapper {
     position: relative;
     cursor: pointer;
@@ -80,7 +114,7 @@ nav.nav-top {
 
 .top-menu-mobile-btn {
     display: none;
-    font-size: 24px;
+    font-size: 20px;
     width: 100%;
     background: #575858;
     border: none;
@@ -94,21 +128,20 @@ nav.nav-top {
     display: none;
 }
 
-ul.top-menu-mobile {
+.top-menu-mobile {
     position: absolute;
-    padding: 35px 0 0 0;
+    padding: 60px 0 0 0;
     width: 100%;
     z-index: 999;
 }
-ul.top-menu-mobile li{
+
+.top-menu-mobile li{
     background: #fff;
     color: #888;
     font-size: 14px;
-    line-height: 30px;
-    height: 50px;
 }
 
-ul.top-menu-mobile li a {
+.top-menu-mobile li a, .top-menu-mobile li span {
     width: 100%;
     display: inline-block;
     font-size: 18px;
@@ -124,16 +157,31 @@ ul.top-menu-mobile li a {
     font-weight: 600;
 }
 
-ul.top-menu-mobile li a:hover{
+.top-menu-mobile li a:hover{
     background: #e6e6e6;
 }
 
-.top-menu-mobile-wrapper:active ul.top-menu-mobile {
+.top-menu-mobile-wrapper:active .top-menu-mobile {
     display: block;
 }
-ul.top-menu-mobile:hover {
+.top-menu-mobile:hover {
     display: block;
 }
+
+.top-menu-mobile .submenu{
+
+
+}
+
+.top-menu-mobile .submenu li {
+
+}
+
+.top-menu-mobile .submenu li a {
+    padding-left: 40px;
+    font-size: 14px;
+}
+
 /* END HEADER */
 
 /* MAIN SLIDER */
@@ -191,7 +239,8 @@ ul.top-menu-mobile:hover {
     margin: 20px 0 20px 0;
 }
 .blocks-wrapper {
-    margin: 20px 0;
+    margin: 5px 0;
+    padding: 15px 0;
 }
 .blocks-wrapper:nth-child(2) {
     background: #f3f3f3;
@@ -222,9 +271,9 @@ ul.top-menu-mobile:hover {
 }
 
 .main-block-text {
-    border-right: 1px solid #ececec;
-    border-left: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #E1E1E1;
+    border-left: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
     padding: 20px;
 }
 /* END PROMO BLOCK */
@@ -240,13 +289,74 @@ ul.top-menu-mobile:hover {
 }
 /* END PRODUCTS MAIN */
 
+/* FEEDBACK FORM */
+.feedback-form label {
+    display: block;
+}
+.feedback-form input, textarea, button {
+    border: 1px solid #e1e1e1;
+    padding: 15px 20px;
+    outline: none;
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.feedback-form button {
+    background-color: #575858;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.feedback-form button:hover {
+    background-color: #215fad;
+}
+
+.fz152 input[type=checkbox]{
+    width: 20px;
+}
+.fz152 a { color: #215fad; }
+
+/* END FEEDBACK FORM */
+
 /* FOOTER */
 .footer {
     background: #575858;
-    color: #fff;
+    padding: 40px 0 20px 0;
 }
 
-.footer p {
-    padding: 20px 0 20px 0;
+.footer .logo a {
+    text-decoration: none;
+}
+
+.logo-text-footer {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.slogan-text-footer {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer-menu li a{
+    color: #ffffff;
+}
+
+.footer-contacts li{
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.copyright {
+    margin: 20px 0 0 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #939393;
 }
 /* END FOOTER */
