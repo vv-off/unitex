@@ -54,9 +54,8 @@ nav.nav-top {
 /* TOP MENU DESKTOP */
 .top-menu-desktop li {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-right: 1px solid #575858;
-    /*margin-left: -4px;*/
     position: relative;
 }
 
@@ -69,7 +68,7 @@ nav.nav-top {
 }
 
 .top-menu-desktop li a, .top-menu-desktop li span {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -83,7 +82,7 @@ nav.nav-top {
     list-style: none;
     border: 1px solid #ededed;
     left: 0;
-    top: 48px;
+    top: 35px;
     background: #575858;
     z-index: 999;
 
@@ -94,6 +93,7 @@ nav.nav-top {
 }
 
 .top-menu-desktop .submenu li {
+    padding: 10px 0;
     border-bottom: 1px solid #939393;
     display: block;
 }
@@ -114,11 +114,12 @@ nav.nav-top {
 
 .top-menu-mobile-btn {
     display: none;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     background: #575858;
     border: none;
     color: #fff;
+    padding: 5px 20px;
 }
 .top-menu-mobile-btn span {
     text-transform: uppercase;
@@ -130,7 +131,7 @@ nav.nav-top {
 
 .top-menu-mobile {
     position: absolute;
-    padding: 60px 0 0 0;
+    padding: 35px 0 0 0;
     width: 100%;
     z-index: 999;
 }
@@ -144,15 +145,15 @@ nav.nav-top {
 .top-menu-mobile li a, .top-menu-mobile li span {
     width: 100%;
     display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     padding-left: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     color: #575858;
     font-weight: 600;
 }
@@ -180,6 +181,7 @@ nav.nav-top {
 .top-menu-mobile .submenu li a {
     padding-left: 40px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 /* END HEADER */
