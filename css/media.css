@@ -5,6 +5,10 @@
 }
 @media only screen and (max-width : 1199px) {
     .top-contact li{ font-size: 22px; }
+    /* PAGE ABOUT */
+    .about-text {
+        margin-top: 10px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -15,8 +19,17 @@
     /*HEADER*/
     .top-header{ line-height: 50px; }
     .top-contact li{ font-size: 15px; }
-    /*END HEADER*/
 
+    /* PAGE ABOUT */
+    .about-block {
+        margin-bottom: 0;
+        padding: 0;
+        border-top: none;
+    }
+    .about-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 /* Small Devices, Tablets */

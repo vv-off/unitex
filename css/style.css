@@ -73,6 +73,7 @@ nav.nav-top {
     text-decoration: none;
     padding: 10px 15px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .top-menu-desktop .submenu {
@@ -101,6 +102,7 @@ nav.nav-top {
 
 .top-menu-desktop .submenu li a {
     font-size: 14px;
+    text-transform: none;
 }
 
 .top-menu-desktop li:hover .submenu {
@@ -183,6 +185,7 @@ nav.nav-top {
     padding-left: 40px;
     font-size: 14px;
     font-weight: 500;
+    text-transform: none;
 }
 
 /* END HEADER */
@@ -239,7 +242,7 @@ nav.nav-top {
 /* END MAIN SLIDER */
 
 .content {
-    margin: 20px 0 20px 0;
+    /*margin: 20px 0 20px 0;*/
 }
 .blocks-wrapper {
     margin: 5px 0;
@@ -295,6 +298,7 @@ nav.nav-top {
 /* FEEDBACK FORM */
 .feedback-form label {
     display: block;
+    font-weight: normal;
 }
 .feedback-form input, textarea, button {
     border: 1px solid #e1e1e1;
@@ -303,6 +307,7 @@ nav.nav-top {
     max-width: 100%;
     width: 100%;
     background-color: #fff;
+    font-weight: normal;
 }
 
 .feedback-form button {
@@ -321,6 +326,23 @@ nav.nav-top {
 .fz152 a { color: #215fad; }
 
 /* END FEEDBACK FORM */
+
+/* PAGE ABOUT */
+.about-block {
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border-top: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+}
+/* END PAGE ABOUT */
 
 /* FOOTER */
 .footer {
